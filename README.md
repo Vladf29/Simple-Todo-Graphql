@@ -1,2 +1,2 @@
 # Todo List
-## Simple node.js server with GraphQL
+### Simple node.js server with GraphQL
