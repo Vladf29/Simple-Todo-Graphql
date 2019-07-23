@@ -1,0 +1,21 @@
+{
+  "name": "todo_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,json,graphql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.7.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2",
+    "graphql-playground-middleware-express": "^1.7.12",
+    "shortid": "^2.2.14"
+  }
+}
