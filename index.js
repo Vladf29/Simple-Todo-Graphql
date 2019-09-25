@@ -25,3 +25,14 @@ var tmp2 = list.find(x => x == "Test1");
 
 //Test Code 2
 
+function make_id(length) {
+    var result           = '';
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+       result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+ }
+
+ var strTmp = Make_id(12);
