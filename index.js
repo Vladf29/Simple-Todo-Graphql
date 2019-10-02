@@ -48,4 +48,4 @@ function make_id(length) {
     return random_string
 }
 
-console.log(generate_random_string(5));
+//console.log(generate_random_string(5));
