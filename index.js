@@ -50,3 +50,6 @@ function make_id(length) {
 }
 
 console.log(generate_random_string(5) +" "+strTmp);
+console.log(Math.random().toString(11).replace('0.', ''));
+console.log(Math.random().toString(13).replace('0.', ''));
+console.log(Math.random().toString(36).substr(2));
