@@ -35,7 +35,7 @@ function make_id(length) {
     return result;
  }
 
- var strTmp = Make_id(17);
+ var strTmp = Make_id(19);
  console.log(strTmp);
  function generate_random_string(string_length){
     let random_string = '';
